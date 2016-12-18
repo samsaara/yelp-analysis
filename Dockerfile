@@ -14,7 +14,7 @@ USER $NB_USER
 
 RUN  pip install --upgrade pip && pip install keras && pip install wordcloud
 
-RUN  conda install -y bokeh
+RUN  conda install -y bokeh scikit-learn
 
 COPY ./*.py $HOME/work/yelp/
 
