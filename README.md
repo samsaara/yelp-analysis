@@ -23,27 +23,27 @@ With this dataset, we shall explore these 4 (7 actually 😉) questions.
 1. Install docker
 2. Download the Yelp dataset to your local system
   * Keep the extracted JSON files in the folder named `yelp_dataset`.
-3. Download [glove](http://nlp.stanford.edu/data/glove.6B.zip) embeddings to your local system and extract them.
+3. Download [glove](http://nlp.stanford.edu/data/glove.6B.zip) (careful with the link as it will start an 822MB download) embeddings to your local system and extract them.
   * We need just `glove.6B.100d.txt`... you can also use others if you wish to.
 
 #### run the following commands in your shell
 ```
-# pull and load the image
-docker run kevad/docker-yelp'
+# pull the image
+docker pull kevad/docker-yelp
 
-# run it
+# run it in the background
 docker run -d -p 8888:8888 kevad/docker-yelp
 
-# check the name of the instance under 'NAME' section. let's say it is <container-name>
+# check the name of the instance under 'NAME' section with the following command. let's say it is '<container-name>'
 docker ps
 
 # copy files to the Container
-# assuming the 'yelp_dataset' folder and 'glove.6B.100d.txt' are in the current folder, do:
+# assuming that the 'yelp_dataset' folder and 'glove.6B.100d.txt' are in the current folder, do:
 docker cp ./glove.6B.100d.txt <container-name>:/home/jovyan/work/yelp/data/embeddings/
 docker cp ./yelp_dataset <container-name>:/home/jovyan/work/yelp/data/
 ```
 
-* head to `http://localhost:8888/yelp/` for code inspection
+* head to `http://localhost:8888/yelp/` for browsing through the scripts
 * open `yelp-data-anaysis-presentation.ipynb` in that directory to play with the code. It won't write anything to disk.
 
 * Change the default kernel to `Python 3` as shown below.
