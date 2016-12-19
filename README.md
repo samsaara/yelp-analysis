@@ -45,7 +45,7 @@ docker cp ./yelp_dataset <container-name>:/home/jovyan/work/yelp/data/
 
 * head to `http://localhost:8888/tree/yelp/` for browsing through the scripts
 * open `yelp-data-anaysis-presentation.ipynb` in that directory to play with the code. It won't write anything to disk.
-  * Open it with nbviewer [here](https://nbviewer.jupyter.org/github/vaddina/yelp-analysis/blob/docker/yelp-data-anaysis-presentation.ipynb) in case it's not rendering correctly on github.
+  * To check it out, open it with nbviewer [here](https://nbviewer.jupyter.org/github/vaddina/yelp-analysis/blob/docker/yelp-data-anaysis-presentation.ipynb) (in _READ_ONLY_ mode) in case it's not rendering correctly on github.
 
 * Change the default kernel to `Python 3` as shown below.
 
