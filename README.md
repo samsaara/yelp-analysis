@@ -3,6 +3,8 @@
 
 [Yelp Data Analysis](https://www.yelp.com/dataset_challenge). This is part of my [blog post](https://vaddina.github.io/2016/12/18/Yelp-Dataset-Analysis-I.html) multipart series. Find more details about the data analysis and implementation details there.
 
+There's also a [dockerized version](https://github.com/vaddina/yelp-analysis/tree/docker) available.
+
 With this dataset, we shall explore these 4 (7 actually 😉) questions.
 
 1. How did generosity change over time? How does it compare by reviews' growth ?
