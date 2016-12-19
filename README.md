@@ -33,3 +33,5 @@ With this dataset, we shall explore these 4 (7 actually 😉) questions.
 ### Explore
 
 Run the [notebook](./yelp-data-anaysis-presentation.ipynb) and/or follow the blog post.
+
+(You should be able to see the visualizations in the above notebook if rendered correctly. Open it with nbviewer [here](https://nbviewer.jupyter.org/github/vaddina/yelp-analysis/blob/master/yelp-data-anaysis-presentation.ipynb), in case if it doesn't.)
