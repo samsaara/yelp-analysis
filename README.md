@@ -25,6 +25,8 @@ With this dataset, we shall explore these 4 (7 actually 😉) questions.
   * Keep the extracted JSON files in the folder named `./data/yelp_dataset`.
 3. Download [glove](http://nlp.stanford.edu/data/glove.6B.zip) embeddings to your local system and extract them.
   * We need just `glove.6B.100d.txt`... you can also use others if you wish to. Move them to `./data/embeddings`.
+4. Download the baby names dataset from [here](https://www.ssa.gov/oact/babynames/names.zip).
+  * Extract it and place the `names` folder under `./data/` directory.
 
 ### Explore
 
