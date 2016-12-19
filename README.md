@@ -50,6 +50,3 @@ docker cp ./yelp_dataset <container-name>:/home/jovyan/work/yelp/data/
 * Change the default kernel to `Python 3` as shown below.
 
 ![python_kernel_selection](https://cloud.githubusercontent.com/assets/6368653/21296677/a5522636-c571-11e6-8d11-5b7b1baf09e8.jpg)
-
-
-The [HTML version](./yelp-data-anaysis-presentation.html) of the notebook intends to give you a rough idea.
