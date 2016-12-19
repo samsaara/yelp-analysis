@@ -1,7 +1,7 @@
 # yelp-analysis
 
 
-[Yelp Data Analysis](https://www.yelp.com/dataset_challenge) in a Docker Container. This is part of my [blog post](https://vaddina.github.io/2016/12/18/Yelp-Dataset-Analysis-I.html). Find more details about the data analysis of this data and implementation details there.
+[Yelp Data Analysis](https://www.yelp.com/dataset_challenge) in a Docker Container. This is part of my [blog post](https://vaddina.github.io/2016/12/18/Yelp-Dataset-Analysis-I.html). Find more details about the data analysis and implementation details there.
 
 With this dataset, we shall explore these 4 (7 actually 😉) questions.
 
