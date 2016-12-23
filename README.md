@@ -5,7 +5,7 @@
 
 There's also a [dockerized version](https://github.com/vaddina/yelp-analysis/tree/docker) available.
 
-With this dataset, we shall explore these 4 (7 actually 😉) questions.
+With this dataset, we shall explore these 4 (10 actually 😉) questions.
 
 1. How did generosity change over time? How does it compare by reviews' growth ?
   * How does it vary by region / sex ?
